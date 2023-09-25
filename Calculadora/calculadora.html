@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora
+    </title>
+    <script src="script.js"></script>
+</head>
+<body>
+    
+<header><h1 class="titulo">Calculadora de Cutiño</h1>
+
+    <div class="enlaces">
+        <a href="index.html">Inicio</a>
+        <a href="calculadora.html">Calculadora</a>
+        <a href="about.html">Sobre Nosotros</a>
+    </div>
+</header>
+
+
+
+<main>
+
+    <div class="calculadora">
+
+        <h1>Calculadora</h1>
+
+        <input type="text" id="display" disabled>
+        <br>
+        <br>
+        <button onclick="añadir('7')">7</button>
+        <button  onclick="añadir('8')">8</button>
+        <button  onclick="añadir('9')">9</button>
+        <button  onclick="añadir('+')">+</button>
+        <br>
+    
+        <button onclick="añadir('4')">4</button>
+        <button  onclick="añadir('5')">5</button>
+        <button  onclick="añadir('6')">6</button>
+        <button  onclick="añadir('-')">-</button>
+        <br>
+    
+        <button onclick="añadir('1')">1</button>
+        <button  onclick="añadir('2')">2</button>
+        <button  onclick="añadir('3')">3</button>
+        <button  onclick="añadir('*')">*</button>
+        <br>
+    
+        <button onclick="añadir('0')">0</button>
+        <button  onclick="borrar()">C</button>
+        <button  onclick="calcular('=')">=</button>
+        <button  onclick="añadir('/')">/</button>
+</main>
+
+<footer></footer>
+</body>
+</html>
